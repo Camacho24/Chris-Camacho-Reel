@@ -4,6 +4,7 @@
   
 .nav-bar a {
   padding: 5px 8px;
+  color: darkred;
   margin-bottom: 10px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 550;
@@ -20,14 +21,13 @@
 }
 
 header {
+  margin-left: 40px;
   font-weight: bold;
   font-size: 40px;
-  text-align: center;
+  text-align: left;
+  text-decoration: underline;
 }
 
-hr {
-  width: 350px;
-}
 
 .wescott-img {
   height: 300px;
