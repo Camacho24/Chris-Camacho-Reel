@@ -101,3 +101,9 @@
 hr {
 margin-top: 10px;
 }
+
+.copywrite p {
+  text-align: right;
+}
+
+}
