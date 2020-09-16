@@ -1,12 +1,17 @@
+body {
+  background-color: none;
+}
+
 .nav-bar {
-    text-align: right;
-  }
-  
+  text-align: right;
+}
+
 .nav-bar a {
-  padding: 5px 8px;
+  padding: 1px 20px;
   color: darkred;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 550;
+  font-size: 25px;
   text-decoration: none;
   text-align: center;
 }
@@ -51,12 +56,14 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
+
 .slices a {
-  padding: 200px;
-  margin: 50px;
-  display: block;
+  height: 100px;
+  width: 250px;
+  padding: 100px;
+  margin: 25px;
+  display: inline-block;
   border: 2px solid black;
   color: darkred;
   text-decoration: none;
@@ -66,13 +73,17 @@
   text-align: center;
 }
 
+.slices #music {
+  color: darkred;
+  border-radius: 3px;
+}
+
 .slices #music:hover {
   color: white;
   border-radius: 3px;
+  text-shadow: 1px 1px 2px black;
   background-image: url('https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/09/1024/512/Florida-State-University-iStock.jpg?ve=1&tl=1');
   background-position: 50% 0;
-  text-shadow: 1px 1px 2px black;
-  ;
 }
 
 .slices #sports:hover {
@@ -85,7 +96,7 @@
 
 .slices #travel:hover {
   background-image: url('./91CA14C4-71DE-4C9C-96FD-7CAD78984F20.JPG');
-  background-position: center;
+  background-position: 75% 70%;
   text-shadow: 1px 1px 2px black;
   background-size: cover;
   color: white;
@@ -99,11 +110,33 @@
 }
 
 hr {
-margin-top: 10px;
+  display: block;
 }
 
-.copywrite p {
-  text-align: right;
+.copyright p {
+  text-align: left;
 }
 
+section {
+  display: block;
+  margin: 10px;
+}
+
+.about-me {
+  margin-left: 20px;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 38px;
+  display: inline-block;
+}
+
+.about-me img {
+  height: 500px;
+  border-radius: 5px;
+  border: 6px outset gold;
+
+}
+
+footer {
+  display: block;
 }
